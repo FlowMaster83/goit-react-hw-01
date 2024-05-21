@@ -7,12 +7,12 @@ export default function App() {
   return (
     <>
       <Profile userStats={userData} />
+
+      {/* Profile() {
+     userStats: "UserData",
+ } */}
+ 
       <FriendList friends={friendsData} />
     </>
   );
 }
-
-// Profile() {
-//     username: "...",
-//     tag: "..."
-// }
