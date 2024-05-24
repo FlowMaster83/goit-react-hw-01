@@ -1,0 +1,59 @@
+.user-card {
+    max-width: 350px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 30px;
+    background-color: var(--main-bg-color);
+    border-radius: var(--main-border-radius);
+    border: var(--main-border);
+    color: var(--main-font-color);
+    margin-bottom: 70px;
+  }
+  
+  .user-image {
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50%;
+    border: var(--main-border);
+  }
+  
+  .user-name {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  
+  .user-nickname,
+  .user-location {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .user-name,
+  .user-stat-detail {
+    font-weight: 700;
+  }
+  
+  .user-stat-list {
+    width: 100%;
+    display: flex;
+    border-top: var(--main-border);
+    text-align: center;
+  }
+  
+  .user-stat-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    row-gap: 15px;
+  }
+  
+  .user-stat-item:first-child {
+    border-right: var(--main-border);
+  }
+  
+  .user-stat-item:last-child {
+    border-left: var(--main-border);
+  }
